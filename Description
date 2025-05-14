@@ -1,0 +1,54 @@
+📝 Text Summarization using T5 and Hugging Face
+
+This project demonstrates automatic text summarization using T5 (Text-to-Text Transfer Transformer), a powerful NLP model by Google AI. The implementation is done in Google Colab using the Hugging Face Transformers library, along with supporting tools like SACREMOSES for tokenization. It covers both extractive and abstractive summarization techniques.
+
+🚀 What is T5?
+
+T5 stands for Text-to-Text Transfer Transformer. It's a transformer-based model designed to solve all NLP tasks using a text-to-text framework, where both input and output are treated as plain text. For example, to summarize a document, the input would be:
+
+🔧 Key Features of T5:
+
+Unified approach to NLP tasks (translation, summarization, Q&A, etc.)
+Pre-trained on a massive dataset, then fine-tuned for specific tasks
+Achieves state-of-the-art performance in multiple NLP benchmarks
+Highly flexible and adaptable for custom datasets and use-cases
+
+📚 Dataset Used: XSum
+
+The XSum (Extreme Summarization) dataset contains news articles paired with one-sentence human-written summaries. It is designed to push the boundaries of abstractive summarization, where the goal is to generate novel sentences capturing the core message of the original document.
+
+🧰 Tools and Libraries
+
+Python
+Hugging Face Transformers – for loading and fine-tuning the T5 model
+SACREMOSES – for sentence splitting and tokenization
+Google Colab – for a cloud-based, interactive execution environment
+
+📌 How to Run
+
+Open the notebook 👉 Text Summarization Colab Notebook
+Paste your own long text or use the sample inputs provided.
+Run all cells to generate extractive and abstractive summaries.
+
+🧠 Why Hugging Face?
+
+Hugging Face is an open-source platform like GitHub for machine learning models. It hosts thousands of pre-trained models shared by developers and companies, making cutting-edge NLP tools accessible and easy to use.
+
+🏗️ Project Structure
+
+📦text-summarization-t5
+ ┣ 📄T5_Summarizer.ipynb
+ ┣ 📄README.md
+ ┗ 📄requirements.txt
+
+✨ Example
+
+Input:
+“Natural Language Processing (NLP) is a field of AI that focuses on the interaction between computers and humans…”
+Abstractive Summary:
+“NLP helps computers understand and generate human language.”
+Extractive Summary:
+“NLP is a field of AI that deals with computer-human interaction.”
+
+📜 License
+This project is open-source and licensed under the MIT License.
